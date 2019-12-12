@@ -125,6 +125,7 @@ i.fa-calendar{
 textarea{
   display:inline-block;
   opacity:1;
+  text-align:justify;
 }
 b{
    background-color:#C62828;
@@ -192,8 +193,8 @@ b{
 </div>
 
 
-<textarea  class="form-control" rows="6" readonly><?php echo $row['abouteve'] ?></textarea>
-<!--<p><?php echo $row['abouteve'] ?></p>-->
+
+<textarea cols="130" rows="6" maxlength="auto" disabled="yes" wrap="hard"><?php echo $row['abouteve'] ?></textarea>
 
 <?php
 if($row['attendees']<=0 or $td>$exp){ 

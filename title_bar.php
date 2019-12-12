@@ -63,7 +63,7 @@ a.fa:hover{
     
    
    <button class="btn " type="button"> 
-           <a href="carousel.php" class="fa fa-home"></a>
+           <a href="index.php" class="fa fa-home"></a>
    </button>
    <button class="btn " type="button"> 
            <a href="events.php" class="fa fa-envelope"></a>

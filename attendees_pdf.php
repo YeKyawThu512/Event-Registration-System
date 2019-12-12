@@ -67,9 +67,10 @@
      $pdf->Image("http://chart.apis.google.com/chart?cht=qr&chs=70x70&chld=L|0&chl=".$_GET['ticket_id']."",140,48,30,30,"png");
     
      $pdf->Cell(189,5,"Location:".$row['location'],0,1);
-     $pdf->Cell(20,5,$row['start_time'],0,0);
+    // $pdf->Cell(20,5,$row['start_time'],0,0);
+     $pdf->Cell(23,5,date("dS F", strtotime($row['start_time'])),0,0); 
      $pdf->Cell( 5,5,"To",0,0);
-     $pdf->Cell(20,5,$row['end_time'],0,1);
+     $pdf->Cell(20,5,date("dS F Y", strtotime($row['end_time'])),0,1);
      
 
   $pdf->Output('event.pdf','D');
