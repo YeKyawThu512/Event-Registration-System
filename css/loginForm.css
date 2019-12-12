@@ -1,0 +1,19 @@
+body{
+	background-color:#F44336;
+}
+.container{
+	margin:100px 6px 0px 6px;
+	background-color:#FFEBEE;
+	border-radius:6px;
+}
+h2{
+	color:#f0f0f0;
+	background-color:#F44336;
+	border-radius:7px;
+	text-align:center;
+	padding:10px 0px 10px 0px;
+
+}
+.btn{
+	float:right;
+}

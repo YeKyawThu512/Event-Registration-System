@@ -1,0 +1,32 @@
+body{
+	background:linear-gradient(-45deg,#e040fb,#7c4dff);
+}
+h2{
+	background-color:#81d4fa;
+	padding:20px;
+	color:#fff;
+	text-align:center;
+	border-radius:10px;
+	margin:0px 0px 50px 0px;
+
+}
+.container{
+   	margin:50px 4px 20px 4px;
+	background-color:#f5f5f5;
+	border-radius:10px;
+	padding:17px;
+	
+}
+label{
+	  padding:6px 0px 5px 5px;
+	  font-weight:bold;
+	  color:#81d4fa;
+	 
+	}
+.clearfix{
+    background-color:#81d4fa;
+	color:#fff;
+	text-align:center;
+	padding:10px 0px 0px 0px;
+	position:static;
+}

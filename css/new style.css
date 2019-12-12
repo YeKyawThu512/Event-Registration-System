@@ -1,0 +1,25 @@
+body{
+	background-color:#7e57c2;
+}
+.container{
+	margin-top:30px;
+	color:#fff;
+}
+a{
+	margin-left:0px;
+	color:#fff;
+}
+
+.btn{
+	margin-right:2px;
+	text-decoration:none;
+}
+.btn-primary{
+   margin:25px 0px 10px 50px;
+}   
+td{
+	padding:10px;
+}
+b{
+	font-size:25px;
+}

@@ -1,0 +1,46 @@
+body{
+	
+	color:white;
+	margin-top:60px;
+}
+h3{
+  text-align:center;
+}
+.about{
+	background-color:gray;
+	color:white;
+}
+.num{
+	float:right;
+	clear:fixed;
+}
+.btn-info{
+	float:right;
+}
+.float{
+	float:left;
+}
+
+.right{
+    float:right;
+  }
+.container{
+       width:80%;
+ 	   height:600px;
+ 	   background:rgb(225,105,78);
+       margin:auto;
+       position:relative;
+} 
+.container:after{
+             content:'';
+             display:block;
+             height:100px;
+             box-shadow:0 2px 120px rgb(225,105,78,.85),
+                0 2px 120px rgba(0,0,0,.65);
+             position:absolute;
+             bottom:0;
+             left:10%;
+  			 z-index:2;
+
+
+}

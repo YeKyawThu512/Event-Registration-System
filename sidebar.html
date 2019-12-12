@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animated Sidebar Menu</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+ function openSlideMenu(){
+ 	document.getElementById('menu').style.width='250px';
+ 	document.getElementById('content').style.marginLeft='250px';
+ }
+ function closeSlideMenu(){
+ 	document.getElementById('menu').style.width='0px';
+ 	document.getElementById('content').style.marginLeft='0px';
+ }
+
+</script>
+</head>
+<body>
+<div id="content">
+ <span class="slide">
+  <a href="#" onclick="openSlideMenu()">
+   <i class="fa fa-align-justify"></i>
+  </a>
+  </span>
+
+  <div id="menu" class="nav">
+   <a href="#" class="close" onclick="closeSlideMenu()">
+    <i class="fa fa-times"></i>
+   </a>
+   <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Service</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contact</a></li>
+   </ul>
+  </div>
+  <h1>Responsive Animated Sidebar Menu</h1>
+</div>
+
+</body>
+</html>
